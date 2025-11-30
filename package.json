@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "local": "set NODE_ENV=local & nodemon server.js",
-    "dev": "NODE_ENV=dev node server.js",
-    "uat": "NODE_ENV=uat node server.js",
-    "prod": "NODE_ENV=prod node server.js",
+    "local": "set NODE_ENV=local & nodemon index.js",
+    "dev": "NODE_ENV=dev node index.js",
+    "uat": "NODE_ENV=uat node index.js",
+    "prod": "NODE_ENV=prod node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
